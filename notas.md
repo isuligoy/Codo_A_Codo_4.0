@@ -218,4 +218,13 @@
 - **_Clave_** string que identifica una propiedad / **_Valor_**: valor asignacio a una propiedad. (string,numbre,boolean,null,array,objecto)
 - **_JSON.Parse_**: convertir string a objeto, Desde js tomar el json y trasformalo en variables para poder manipularlo
 - **_JSON.Stringify_**: convertir objeto a string
-- Fetch :
+- **_Fetch_** : [jsonPlaceholder](https://jsonplaceholder.typicode.com/)
+
+#### LocalStore PWA
+
+- **_LocalStore_**: almacenar informacion dentro del navegador, no se borra aunque el navegador se cierre, si el usuario borra los datos de navegador ahi si
+- No estar siempre pegandole a la base de datos, sino que traerlo una vez y guardalo en el localstorage
+- **_APIGeolocalizacion_**: va a mostrame la latitud como la longitud,
+- En las propiedades de desarrollado, en los 3 puntidos / more tools / sensores, el navegador viene predifinido para que pruebe difentes lugares
+- **_PWA_**: aplicaciones web progresivas usa api del navegador, como lo de arriba, de manera tal que se parezca una aplicacion nativa, para acercarse a la expriencia de usuario,
+- **_PWA_** (extra): aplicaciones web que utilizan APIs y funciones emergentes del navegador web junto con una estrategia tradicional de mejora progresiva para ofrecer una aplicación nativa.
