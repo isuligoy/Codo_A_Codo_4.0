@@ -148,7 +148,7 @@
 
 ## class7-Tipos_lenguajes_programación
 
-#### lenguaje programacion
+#### Lenguaje programacion
 
 - Lenguaje formal, que le proporciuona a una persona (programador), escribir o programar una serie de instrucciones o secuencias de ordenes en forma de algoritmos con el fin de controlar el comportamiento fisico o logico de un sistam informatico
 - Js se puede trabajar desde el lado del cleinte como del servidor (backend)
@@ -207,4 +207,15 @@
 
 #### Dom y su relacion con JS
 
-- El DOM, document object model, saber del dom va a permitir manipular el HTML y CSS como quiera, 
+- El DOM, document object model, saber del dom va a permitir manipular el HTML y CSS como quiera,
+- El "problema" de ser un leguaje no tipado es que cuando suma un numero con un string, lo vuelve un string
+- [this/that](https://thisthat.dev/)
+- Paserint() or Numbrer()
+
+#### JSON, trabajando con API
+
+- **_JSON_**: es un formatio estandar de comunicacion de datos, se puede repesentar los tipos basicos de datos de JS
+- **_Clave_** string que identifica una propiedad / **_Valor_**: valor asignacio a una propiedad. (string,numbre,boolean,null,array,objecto)
+- **_JSON.Parse_**: convertir string a objeto, Desde js tomar el json y trasformalo en variables para poder manipularlo
+- **_JSON.Stringify_**: convertir objeto a string
+- Fetch :
