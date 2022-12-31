@@ -228,3 +228,21 @@
 - En las propiedades de desarrollado, en los 3 puntidos / more tools / sensores, el navegador viene predifinido para que pruebe difentes lugares
 - **_PWA_**: aplicaciones web progresivas usa api del navegador, como lo de arriba, de manera tal que se parezca una aplicacion nativa, para acercarse a la expriencia de usuario,
 - **_PWA_** (extra): aplicaciones web que utilizan APIs y funciones emergentes del navegador web junto con una estrategia tradicional de mejora progresiva para ofrecer una aplicación nativa.
+
+## class11-Podcast
+
+#### Podcast: Lógica de negocio
+
+- Entender lo importante que es desarrollar una pagina web y el alcanse que tendra el proyecto
+- Veremos como verl el alcanse del negocio, la logica que tendra este negocio, y tener una idea de lo que se tiene que contruir
+- Relevar todas las funcionalidades que el cliente espera y ver que tan viable son
+- No empezar con el codigo, 1º validar con el cliente 2º la logica diagrama de flujo algoritomos 3º ahi si nos sentamos a codificar, porque lleva mucho tiempo
+- Armar documentos, diagrama de flujo de que es lo que va a llevar a codigo [MarverApp](https://marvelapp.com/), [balsamiq](https://balsamiq.com/), para crear un prototipo de como se comportaria la pagina
+- Testar y probar las fallas
+
+#### Podcast: Algunos consejos
+
+- No quedase con un solo lenguaje de programacion
+- El mejor lenguaje es aquel que se acople mejor al proyecto
+- No tener una ensalada de lenguajes, pero si saber cuales existe y tener un conocimineto en que es bueno en que es perfonmante, en que flaquea etc.
+- Buscar buenas practicas de programacion
