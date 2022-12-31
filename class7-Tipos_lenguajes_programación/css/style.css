@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: lightblue;
+    }
+}
+
+
+div{
+  width: 200px;
+  height: 200px;
+  background: red;
+}

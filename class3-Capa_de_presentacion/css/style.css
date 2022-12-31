@@ -1,0 +1,40 @@
+/** 
+    Esto es un comentario dentro de un documento CSS
+*/
+p{
+    color: red;
+}
+h1{
+    color: aqua;
+    /* Box-Model */
+    border: 6px solid red;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+/* Box-Model */
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+/* Selectores */
+*{
+    color: blue;
+}
+
+#mi_parrafo{
+    color: yellow;
+    border: 1px solid blue;
+    padding: 20px
+}
+.estaesmiclase{
+    color: blue;
+}
+
+/* Fonts */
+*{
+    font-family: 'Roboto', sans-serif;
+}

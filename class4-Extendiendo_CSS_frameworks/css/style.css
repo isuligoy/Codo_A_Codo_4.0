@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue !important;
+      color: #000;
+
+      color: #fff;
+    }
+}
