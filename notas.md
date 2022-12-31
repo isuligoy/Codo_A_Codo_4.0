@@ -148,24 +148,24 @@
 
 ## class7-Tipos_lenguajes_programación
 
-#### Lenguaje programacion
+#### Lenguaje programación
 
-- Lenguaje formal, que le proporciuona a una persona (programador), escribir o programar una serie de instrucciones o secuencias de ordenes en forma de algoritmos con el fin de controlar el comportamiento fisico o logico de un sistam informatico
-- Js se puede trabajar desde el lado del cleinte como del servidor (backend)
-- Complidado: codigo fuente que escribimos se va a complilacion y va a producir un binario y puede ser eejecutado en el sistema operativo, como una aplicacion
-- Interpretacion: solo cuando se ejecuta el programa se interpreta lo que esta desarrollado y produce la ejecucion
-- Desarrollar la documentacion
+- Lenguaje formal, que le proporciona a una persona (programador), escribir o programar una serie de instrucciones o secuencias de ordenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático
+- JS se puede trabajar desde el lado del cliente como del servidor (backend)
+- Complicado: Código fuente que escribimos se va a compilación y va a producir un binario y puede ser ejecutados en el sistema operativo, como una aplicación
+- Interpretado: solo cuando se ejecuta el programa se interpreta lo que está desarrollado y produce la ejecución
+- Desarrollar la documentación
 
-#### Compliador Interprete
+#### Compilador Interprete
 
-- Compliador: programa que traduce codigo escrito en un lenguaje de programacion (codigo guente) a otro lenguaje (objeto), toma el codigo fuente del lenguaje que elegi y lo baja a codigo de maquina (assembly), produce un "ejecutable" con lenguaje de maquina
+- Compilado: programa que traduce código escrito en un lenguaje de programación (código fuente) a otro lenguaje (objeto), toma el código fuente del lenguaje que elegir y lo baja a código de maquina (assembly), produce un "ejecutable" con lenguaje de maquina
 - Interprete: programa de analizar y ejecutar otros programas, traducir el programa a medida que se va ejecutando, a medida que lee y lo va interpretando
-- Clasificacion alto nivel y bajo nivel
-- Dependiendo el lenguaje de programacion que se use va a estar mas cerca de hablarle al procesador casi directa Alto nivel: mas lejos de hablar al procesador y pasa a bajo nivel y bajo nivel: mas cerca de hablar al procesador
-- **_Tipo de Paradigma de programacion_**, diferentes corrientes para llegar a la resolucion de problemas, **_procedural_**: receta de la cocina paso a paso, o **_orientados a objetos_**: mas sofisticado, es como un robot que toma lo que necesita para segurir la receta, bien estructurado, **_por eventos_**
-- **_Plataformas_**: diferente tipos de plataformas, arquitecturas, etc
+- Clasificación alto nivel y bajo nivel
+- Dependiendo el lenguaje de programación que se use va a estar más cerca de hablarle al procesador casi directa Alto nivel: más lejos de hablar al procesador y pasa a bajo nivel y bajo nivel: más cerca de hablar al procesador
+- **_Tipo de Paradigma de programación_**, diferentes corrientes para llegar a la resolución de problemas, **_procedural_**: receta de la cocina paso a paso, o **_orientados a objetos_**: más sofisticado, es como un robot que toma lo que necesita para seguir la receta, bien estructurado, **_por eventos_**
+- **_Plataformas_**: diferentes tipos de plataformas, arquitecturas, etc.
 
-#### Tipos de lenguaje de programacion ejemplos
+#### Tipos de lenguaje de programación ejemplos
 
 - **_Fuertemente tipado_**: hay que declarar que tipo de dato se va a guardar en la variable
 - **_No Fuertemente tipado_**: no se requiere declarar que tipo de dato se va a guardar en la variable
@@ -174,75 +174,75 @@
 
 #### Tipos de variables
 
-- **_Variables_**: es un espacio en el sistema de almasenaje (la memoria) y un identificador que se asocia a dicho espacio, tipo de valores, numeros, string, booleano, undefinded, null
-- El tipo de dato en js es mutable de tipado debil
+- **_Variables_**: es un espacio en el sistema de almacenaje (la memoria) y un identificador que se asocia a dicho espacio, tipo de valores, números, string, booleano, undefinded, null
+- El tipo de dato en JS es mutable de tipado débil
 
-#### Condicionesl e iteradores e funciones para reutilizar código.
+#### Condicionales e iteradores y funciones para reutilizar código.
 
-- if con mayor o igual, que si no es verdera la primera, se escapa por el else
-- **_For_**: cuando sabemos cuantas iteraciones va a tener mientras que **_while_**: no sabemos cuantas iteraciones va a tener, mientra que el **_do/while_**: ejecuto una vez la sentencia despues pregunto si sigo ejecutando o no
-- Sentencia **_break_**: itereador, si mi variable vale tanto quiero que termine con el iterador, tambien esta **_continue_**: si se cumple eso segui adelante con el proximo bucle
-- **_Funciones_**: encapsula un bloque de codigo
+- if con mayor o igual, que, si no es verdadera la primera, se escapa por el else
+- **_For_**: cuando sabemos cuántas iteraciones va a tener mientras que **_while_**: no sabemos cuántas iteraciones va a tener, mientras que el **_do/while_**: ejecuto una vez la sentencia después pregunto si sigo ejecutando o no
+- Sentencia **_break_**: iterador, si mi variable vale tanto quiero que termine con el iterador, también esta **_continue_**: si se cumple eso sigue adelante con el próximo bucle
+- **_Funciones_**: encapsula un bloque de código
 
 ## class9-Fundamentos_JavaScript_I
 
 #### Sintaxis
 
 - Sintaxis var, let, const
-- Las variables tiene que ser identificadores unicos, los nombres pueden ser tener numeros letras, pero tiene que empezar con letra, es case sentitive (y != Y)
-- // /\*\* \*/ comentario, es para caundo algo no esta tan claro de que hace o porque se hace
-- Js le suma comportamiento a la pagina
+- Las variables tiene que ser identificadores únicos, los nombres pueden ser tener números letras, pero tiene que empezar con letra, es case sensitive (y != Y)
+- // /\*\* \*/ comentario, es para cuando algo no esta tan claro de que hace o porque se hace
+- JS le suma comportamiento a la pagina
 
 #### Integrando JavaScript a HTML
 
-- El js se puede agregar **_Dentro HTML_**: <scritp></script> en el HTML, cuando solo tengo una hoja de HTML se puede entender, **_Script extrerno_**: es un archivo aparte unido con la <scritp src="*"></script>
+- El JS se puede agregar **_Dentro HTML_**: <script></script> en el HTML, cuando solo tengo una hoja de HTML se puede entender, **_Script externo_**: es un archivo aparte unido con la <script src="*"></script>
 - [Eventos DevMozilla](https://developer.mozilla.org/es/docs/Web/Events)
 - [Eventos W3Schools](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-#### Introduccion a los Eventos JS
+#### introducción a los Eventos JS
 
-- Variante de onclick siendo, al document agregale un escuchador de ese evento que yo le diga
+- Variante de onclick siendo, al document agrégale un escuchador de ese evento que yo le diga
 
 ## class10-Pensamiento lógico
 
-#### Dom y su relacion con JS
+#### Dom y su relación con JS
 
 - El DOM, document object model, saber del dom va a permitir manipular el HTML y CSS como quiera,
 - El "problema" de ser un leguaje no tipado es que cuando suma un numero con un string, lo vuelve un string
 - [this/that](https://thisthat.dev/)
-- Paserint() or Numbrer()
+- Parseint() or Number()
 
 #### JSON, trabajando con API
 
-- **_JSON_**: es un formatio estandar de comunicacion de datos, se puede repesentar los tipos basicos de datos de JS
-- **_Clave_** string que identifica una propiedad / **_Valor_**: valor asignacio a una propiedad. (string,numbre,boolean,null,array,objecto)
-- **_JSON.Parse_**: convertir string a objeto, Desde js tomar el json y trasformalo en variables para poder manipularlo
-- **_JSON.Stringify_**: convertir objeto a string
-- **_Fetch_** : [jsonPlaceholder](https://jsonplaceholder.typicode.com/)
+- **_JSON_**: es un formato estándar de comunicación de datos, se puede representar los tipos básicos de datos de JS
+- **_Clave_** string que identifica una propiedad / **_Valor_**: valor asignado a una propiedad. (string, number, boolean, null, array, object)
+- **_JSON.Parse_**: convertir string a objeto, Desde JS tomar el json y transformarlo en variables para poder manipularlo
+- **_JSON.Stringify_**: convert object a string
+- **_Fetch_**: [Json Placeholder](https://jsonplaceholder.typicode.com/)
 
-#### LocalStore PWA
+#### Localstorage PWA
 
-- **_LocalStore_**: almacenar informacion dentro del navegador, no se borra aunque el navegador se cierre, si el usuario borra los datos de navegador ahi si
-- No estar siempre pegandole a la base de datos, sino que traerlo una vez y guardalo en el localstorage
-- **_APIGeolocalizacion_**: va a mostrame la latitud como la longitud,
-- En las propiedades de desarrollado, en los 3 puntidos / more tools / sensores, el navegador viene predifinido para que pruebe difentes lugares
-- **_PWA_**: aplicaciones web progresivas usa api del navegador, como lo de arriba, de manera tal que se parezca una aplicacion nativa, para acercarse a la expriencia de usuario,
+- **_Localstorage_**: almacenar información dentro del navegador, no se borra, aunque el navegador se cierre, si el usuario borra los datos de navegador ahí si
+- No estar siempre pegándole a la base de datos, sino que traerlo una vez y guardarlo en el localstorage
+- **_API Geolocalización_**: va a mostrarme la latitud como la longitud,
+- En las propiedades de desarrollado, en los 3 puntidos / more tools / sensores, el navegador viene predefinido para que pruebe diferentes lugares
+- **_PWA_**: aplicaciones web progresivas usa api del navegador, como lo de arriba, de manera tal que se parezca una aplicación nativa, para acercarse a la experiencia de usuario,
 - **_PWA_** (extra): aplicaciones web que utilizan APIs y funciones emergentes del navegador web junto con una estrategia tradicional de mejora progresiva para ofrecer una aplicación nativa.
 
 ## class11-Podcast
 
 #### Podcast: Lógica de negocio
 
-- Entender lo importante que es desarrollar una pagina web y el alcanse que tendra el proyecto
-- Veremos como verl el alcanse del negocio, la logica que tendra este negocio, y tener una idea de lo que se tiene que contruir
+- Entender lo importante que es desarrollar una página web y el alcance que tendrá el proyecto
+- Veremos como ver el alcance del negocio, la lógica que tendrá este negocio, y tener una idea de lo que se tiene que construir
 - Relevar todas las funcionalidades que el cliente espera y ver que tan viable son
-- No empezar con el codigo, 1º validar con el cliente 2º la logica diagrama de flujo algoritomos 3º ahi si nos sentamos a codificar, porque lleva mucho tiempo
-- Armar documentos, diagrama de flujo de que es lo que va a llevar a codigo [MarverApp](https://marvelapp.com/), [balsamiq](https://balsamiq.com/), para crear un prototipo de como se comportaria la pagina
+- No empezar con el código, 1º validar con el cliente 2º la lógica diagrama de flujo algoritmos 3º ahí si nos sentamos a codificar, porque lleva mucho tiempo
+- Armar documentos, diagrama de flujo de que es lo que va a llevar a código [MarverApp](https://marvelapp.com/), [balsamiq](https://balsamiq.com/), para crear un prototipo de cómo se comportaría la pagina
 - Testar y probar las fallas
 
 #### Podcast: Algunos consejos
 
-- No quedase con un solo lenguaje de programacion
+- No quedase con un solo lenguaje de programación
 - El mejor lenguaje es aquel que se acople mejor al proyecto
-- No tener una ensalada de lenguajes, pero si saber cuales existe y tener un conocimineto en que es bueno en que es perfonmante, en que flaquea etc.
-- Buscar buenas practicas de programacion
+- No tener una ensalada de lenguajes, pero si saber cuáles existe y tener un conocimiento en que es bueno en que es óptimo, en que flaquea etc.
+- Buscar buenas prácticas de programación
